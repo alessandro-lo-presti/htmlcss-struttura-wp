@@ -31,13 +31,21 @@ main {
 }
 
 main aside {
-  height: 600px;
+  height: 100%;
   width: 20%;
   background-color: green;
 }
 
 main .left-column {
   margin-right: 10px;
+}
+
+main .left-column .box {
+  height: 280px;
+  width: 100%;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: red;
 }
 
 main .page-content{
@@ -50,12 +58,12 @@ main .right-column {
   margin-left: 10px;
 }
 
-main .box {
-  height: 280px;
+main .right-column .box {
+  height: 190px;
   width: 100%;
   margin-bottom: 5px;
   display: inline-block;
-  background-color: red;
+  background-color: orange;
 }
 
 /* footer */
