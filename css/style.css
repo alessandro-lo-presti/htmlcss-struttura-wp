@@ -12,6 +12,12 @@
   float: left;
 }
 
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: ""
+}
+
 /* header */
 header {
   height: 150px;
