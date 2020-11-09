@@ -30,10 +30,16 @@ main {
   background-color: green;
 }
 
-main .left-column {
+main aside {
   height: 300px;
-  width: 25%;
+  width: 20%;
   background-color: red;
+}
+
+main .page-content {
+  height: 600px;
+  width: 60%;
+  background-color: blue;
 }
 
 /* footer */
