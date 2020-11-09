@@ -5,8 +5,10 @@
 }
 
 .container {
+  height: 100vh;
   width: 1020px;
-  margin: 10px auto;
+  margin: auto;
+  position: relative;
 }
 
 .float-left {
@@ -69,5 +71,9 @@ main .right-column .box {
 /* footer */
 footer {
   height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
   background-color: grey;
 }
