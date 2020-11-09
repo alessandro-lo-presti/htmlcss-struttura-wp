@@ -33,7 +33,6 @@ main {
 }
 
 main aside {
-  height: 100%;
   width: 20%;
   background-color: green;
 }
