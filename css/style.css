@@ -8,6 +8,10 @@
   width: 1020px;
 }
 
+.float-left {
+  float: left;
+}
+
 /* header */
 header {
   height: 150px;
