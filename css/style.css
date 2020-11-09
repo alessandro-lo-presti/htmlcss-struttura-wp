@@ -10,6 +10,14 @@
 
 /* header */
 header {
-  height: 200px;
+  height: 150px;
   background-color: yellow;
+}
+
+/* main */
+
+/* footer */
+footer {
+  height: 100px;
+  background-color: grey;
 }
