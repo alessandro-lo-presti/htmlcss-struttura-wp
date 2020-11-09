@@ -30,6 +30,12 @@ main {
   background-color: green;
 }
 
+main .left-column {
+  height: 300px;
+  width: 25%;
+  background-color: red;
+}
+
 /* footer */
 footer {
   height: 100px;
