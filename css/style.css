@@ -6,7 +6,7 @@
 
 .container {
   width: 1020px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .float-left {
@@ -26,16 +26,28 @@ header {
 }
 
 /* main */
+main {
+  margin: 10px 0;
+}
+
 main aside {
   height: 600px;
   width: 20%;
   background-color: green;
 }
 
-main .page-content {
+main .left-column {
+  margin-right: 10px;
+}
+
+main .page-content{
   height: 600px;
-  width: 60%;
+  width: calc(60% - 20px);
   background-color: blue;
+}
+
+main .right-column {
+  margin-left: 10px;
 }
 
 /* footer */
