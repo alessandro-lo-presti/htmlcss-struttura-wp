@@ -50,6 +50,14 @@ main .right-column {
   margin-left: 10px;
 }
 
+main .box {
+  height: 280px;
+  width: 100%;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: red;
+}
+
 /* footer */
 footer {
   height: 100px;
